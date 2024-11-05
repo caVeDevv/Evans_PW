@@ -9,9 +9,9 @@ const head = document.querySelector(".heading"),
 let bTn = document.querySelector("#btt");
 
 // Page before Reload
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
+// window.onbeforeunload = function () {
+//   window.scrollTo(0, 0);
+// };
 
 // Navbar closing on outside click - Jquery
 $(document).ready(function () {
@@ -79,22 +79,22 @@ copy.forEach((text) => {
 });
 
 // For preloader
-let newFunction;
-const headr = document.querySelector("header"),
-  main = document.querySelector("main"),
-  footer = document.querySelector("footer");
+// let newFunction;
+// const headr = document.querySelector("header"),
+//   main = document.querySelector("main"),
+//   footer = document.querySelector("footer");
 
-function myFunction() {
-  newFunction = setTimeout(() => {
-    document.querySelector(".preloader").style.opacity = 0;
-    headr.style.display = "block";
-    main.style.display = "block";
-    footer.style.display = "block";
-    setTimeout(() => {
-      document.querySelector(".preloader").style.display = "none";
-    }, 1000);
-  }, 1050);
-}
+// function myFunction() {
+//   newFunction = setTimeout(() => {
+//     document.querySelector(".preloader").style.opacity = 0;
+//     headr.style.display = "block";
+//     main.style.display = "block";
+//     footer.style.display = "block";
+//     setTimeout(() => {
+//       document.querySelector(".preloader").style.display = "none";
+//     }, 1000);
+//   }, 1050);
+// }
 // Using a media query
 
 // x = window.matchMedia("(max-width:768px)");

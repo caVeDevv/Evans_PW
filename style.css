@@ -83,7 +83,7 @@ a {
 header,
 main,
 footer {
-  display: none;
+  display: block;
   -webkit-animation: spin-animate;
   -webkit-animation-duration: 1s;
   animation: spin-animate;
