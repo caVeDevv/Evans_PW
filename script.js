@@ -115,7 +115,7 @@ function myFunction() {
       document.querySelector("footer").style.display = "block";
       setTimeout(() => {
         document.querySelector(".preloader").style.display = "none";
-      }, 1000);
+      }, 1500);
 
       // Set the flag in localStorage
       localStorage.setItem("pageLoaded", "true");
