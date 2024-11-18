@@ -994,7 +994,14 @@ h5 {
   .overflow {
     max-height: 300px;
   }
+  .img-here:before {
+    width: 130px;
+    height: 200px;
+    border-radius: 4px;
+    bottom: 10%;
+    transform: translate(-12px, 35px);
+  }
 }
 /*
-  Designer & Developer - workitsilas
+  Designer & Developer - workitoutsilas
 */
